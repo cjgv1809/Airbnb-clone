@@ -1,7 +1,6 @@
 import { useState } from "react";
 import ReactMapGL, { Marker, Popup } from "react-map-gl";
 import getCenter from "geolib/es/getCenter";
-import Fade from "react-reveal/Fade";
 
 function Map({ searchResults }) {
   const [selectedLocation, setSelectedLocation] = useState({});
