@@ -11,7 +11,10 @@ export default function Home({ exploreData, cardsData }) {
     <div>
       <Head>
         <title>Airbnb</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link
+          rel="icon"
+          href="https://cdn.freelogovectors.net/wp-content/uploads/2016/12/airbnb_logo.png"
+        />
       </Head>
 
       <Header />
